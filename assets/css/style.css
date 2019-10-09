@@ -2,6 +2,24 @@
     position: relative;
 }
 
+header{
+}
+
+.name-box{
+    display: inline;
+    position: relative;
+    left: 50px; 
+}
+
+nav{
+    display: inline;
+    position: fixed;
+    right: 50px;
+    top: 0px;
+    background: cadetblue;
+}
 .navbar{
     display: inline;
+    background: lightgrey;
 }
+
