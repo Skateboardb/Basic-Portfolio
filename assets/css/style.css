@@ -1,6 +1,5 @@
-/* .page{
-    position: relative;
-} */
+.page{
+}
 
 .entire-content{
     width:960px;
@@ -20,31 +19,33 @@
 
 
 .namebox{
-    background-color: lightgrey;
+    background-color: #008000;
     padding: 10px;
     position:relative;
     display: inline-block;
     height:80px;
     left: 0px;
+    color: whitesmoke
 }
 
 h1{
     font-size: 36px;
 }
 .navbox{
-    background-color: lightgrey;
-    padding: 10px;
     position:relative;
-    height:80px;
+    height:100px;
     display: inline-block;
     float:right;
+    color: #777
   
 }
 
 .navbutton{
     display: inline;
     margin-left: 20px;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    position: relative; 
+    top: 15px;
 }
 
 ul{
@@ -52,20 +53,46 @@ ul{
     right: 25px;
     top: 10px;
 }
+
+.navline {
+   width:1px;
+   height: 0px;
+   display: inline;
+   position: relative;
+   top: 15px;
+   left: 6px;
+}
+
 body{
-    background-color: grey;
+    /* background-color: grey; */
     /* position: relative; */
+
 }
 
 .content{
-    background-color: red;
     display: block;
     position: relative;
     top: 100px;
     margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    width: 920px;
+    color: #777777
 }
 
 h2{
-    font-size:72px;
-    display:block;
+    font-size: 36px;
+    color: #008000
+}
+
+#profile-photo{
+    display:inline-block;
+    width: 200px;
+    float:left;
+    margin-right: 20px;
+}
+
+.body-text{
+    line-height:2em;
 }
