@@ -1,14 +1,22 @@
-.content{
-    position: relative;
+body{
+    background-color: grey;
 }
+.content{
+    position: relative;}
 
 header{
 }
 
+h1{
+    background-color: cadetblue;
+    padding-top:30px;
+}
 .name-box{
-    display: inline;
+    display: inline-block;
     position: relative;
     left: 50px; 
+    top:0px;
+    /* color: cadetblue; */
 }
 
 nav{
@@ -23,3 +31,7 @@ nav{
     background: lightgrey;
 }
 
+#portfolio{
+    border-left:10px;
+    border-color: wheat;
+}
