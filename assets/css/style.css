@@ -15,6 +15,7 @@
     right:0px;
     margin:0px;
     display: block;
+    border-bottom: #666 2px solid;
 }
 
 
@@ -42,17 +43,20 @@ h1{
 
 .navbutton{
     display: inline;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     font-size: 1.3em;
     position: relative; 
     top: 15px;
+    padding-left: 20px;
 }
 
 ul{
     position: relative;
-    right: 25px;
+    /* right: 25px; */
     top: 10px;
 }
+
+
 
 .navline {
    width:1px;
@@ -64,8 +68,7 @@ ul{
 }
 
 body{
-    /* background-color: grey; */
-    /* position: relative; */
+    /* background: gray; */
 
 }
 
@@ -95,4 +98,22 @@ h2{
 
 .body-text{
     line-height:2em;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    border-top: 8px solid #4aaaa5;
+    background: #666;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    color: #ddd;
+}
+
+.copyright{
+    margin: auto;
+    clear: both; 
+    text-align: center;
+    padding-top: 20px;
 }
