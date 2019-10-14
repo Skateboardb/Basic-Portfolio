@@ -82,7 +82,8 @@ body{
     background-color: white;
     padding: 20px;
     width: 920px;
-    color: #777777
+    color: #777777;
+    border: solid #777 1px;
 }
 
 h2{
