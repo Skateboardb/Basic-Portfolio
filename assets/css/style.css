@@ -9,13 +9,14 @@
 .navbar{
     background-color: white;
     height: 100px;
-    position: absolute;
+    position: fixed;
     top:-10px;
     left: 0px;
     right:0px;
     margin:0px;
     display: block;
     border-bottom: #666 2px solid;
+    z-index: 1;
 }
 
 
@@ -84,6 +85,8 @@ body{
     width: 920px;
     color: #777777;
     border: solid #777 1px;
+    clear:both;
+    
 }
 
 h2{
@@ -111,6 +114,8 @@ footer{
     right: 0px;
     height: 40px;
     color: #ddd;
+    display:inline-block;
+
 }
 
 .copyright{
@@ -158,4 +163,48 @@ textarea{
 
 a{
     text-decoration: none;   
+}
+
+
+/*------------------ Portfolio styles ------------------ */
+
+.row{
+    
+}
+
+.preview {
+    
+    margin:0px 40px;
+
+}
+
+img{
+    width:200px;
+    height:150px;
+    /* margin:30px; */
+    position: relative;
+}
+
+.preview-text {
+    /* position: fixed; */
+    display: inline-block;
+    /* background-color: black; */
+    color: white;
+    margin:0px 40px;
+    /* float:left; */
+    ;
+}
+
+.preview-text>h2{
+    position:relative;
+    background:#008000;
+    width:200px;
+    text-align:center;
+    color:white;
+    bottom:100px;
+
+}
+
+.images{
+    margin-top:30px;
 }
